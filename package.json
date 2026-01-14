@@ -1,0 +1,27 @@
+{
+  "name": "heartrate-extractor",
+  "version": "1.0.0",
+  "description": "Extract HeartRate values from log strings",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "start:node": "tsx src/index.ts",
+    "test": "bun test",
+    "test:node": "tsx src/index.test.ts",
+    "build": "tsc",
+    "dev": "bun run src/index.ts"
+  },
+  "keywords": [
+    "heartrate",
+    "parser",
+    "extractor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+}
